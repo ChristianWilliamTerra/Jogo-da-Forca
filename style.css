@@ -1,0 +1,149 @@
+* {
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    background-color: #f0f8ff;
+}
+
+.logo {
+    margin-left: 84px;
+    margin-top: 40px;
+}
+
+.conteudo__titulo{
+    display: inline-block;
+}
+.titulo {
+    font-weight: bold;
+    font-family: 'Cormorant', serif;
+    font-size: 40px;
+    text-align: center;
+}
+
+.btn-iniciar {
+    height: 105px;
+    width: 317px;
+
+    margin-top: 10rem;
+    margin-left: 50rem;
+
+    color: #FFFFFF;
+    
+    background: #0A3871;
+    border-radius: 24px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 22px;
+    justify-content: center;
+    border: none;
+}
+
+.btn-iniciar:hover {
+    cursor: pointer;
+
+    background: #071b34;
+}
+
+.btn-palavra {
+    width: 317px;
+    height: 102px;
+
+    margin-top: 2rem;
+    margin-left: 50rem;
+
+    background: none;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    justify-content: center;
+}
+
+.btn-palavra:hover {
+    cursor: pointer;
+    color: #0A3871;
+    background: #ffffff;
+}
+
+.botoes-div-canvas {
+   display: flex;
+   flex-direction: row;
+   margin-bottom: 2rem;
+   margin-left: 28rem;
+}
+
+.btn-azul {
+    height: 105px;
+    width: 317px;
+
+    color: #FFFFFF;
+    
+    background: #0A3871;
+    border-radius: 24px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 22px;
+    justify-content: center;
+    border: none;
+}
+
+.btn-azul:hover {
+    cursor: pointer;
+
+    background: #071b34;
+}
+
+.btn-branco {
+    width: 317px;
+    height: 102px;
+
+    margin-left: 2rem;
+
+    background: none;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    justify-content: center;
+}
+
+.btn-branco:hover {
+    cursor: pointer;
+    color: #0A3871;
+    background: #ffffff;
+}
+
+.remove {
+    display: none;
+}
+
+#div-aparece-forca {
+   margin-left: 10%;
+}
+
+.palavra-nova {
+    margin-top: 2rem;
+    margin-left: 40rem;
+}
+
+.form-group {
+    margin-top: 30rem;
+}
+
+.botoes-div {
+    margin-top: 1rem;
+}
+
+.text-input {
+    border: none;
+    background: none;
+
+    font-size: 32px;
+}

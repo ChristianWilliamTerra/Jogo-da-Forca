@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Cormorant&family=Montserrat&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+        <title>Jogo da Forca</title>
+    </head>
+    <body>
+        <header class="logo">
+            <img id="logo" src="/imagens/logo.png"><br>
+        </header>
+        <section id="div-desaparece" class="botoes-home"> 
+                <h1 class="titulo">Seja Bem-Vindo(a) ao Jogo da Forca</h1>
+            <section class="botoes">
+                <a href="#forca"><input class="btn-iniciar" type="submit" value="Iniciar Jogo" id="iniciar-jogo"></button></a>
+                <button class="btn-palavra" id="nova-palavra" onclick="mostrarTelaAdicionarPalavra()">Adicionar Palavra</button>
+            </section>
+        </section>
+        <section id="adicionar-palavra" class="palavra-nova">
+            <input class="text-input" type="text" id="input-nova-palavra" maxlength="8" placeholder="Escreva uma Palavra">
+            <section class="form-group">
+                <img src="./imagens/!.png" class="img-alerta">
+                <label for="input-texto"> Máx. 9 caracteres</label>
+            </section>
+            <section class="botoes-div">
+                <input class="btn-azul" type="submit" value="Salvar e Começar" id="btn-salvar">
+                <input class="btn-branco" type="submit" value="Cancelar" id="btn-cancelar">
+            </section>
+        </section>
+        <section id="div-aparece-forca" class="canvas">
+            <canvas id="forca" height="750px" width="1200"></canvas>
+            <section class="sublinhado">
+            </section>
+            <section class="botoes-div-canvas">
+                <input class="btn-azul" type="submit" value="Novo Jogo" id="btn-novo-jogo">
+                <input class="btn-branco" type="submit" value="Sair" id="btn-sair">
+            </section>
+        </section>
+
+        <script type="text/javascript" src="forca.js"></script>
+        <script type="text/javascript" src="canvas.js"></script>
+    </body>
+</html>
